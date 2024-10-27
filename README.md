@@ -38,4 +38,4 @@ or
 nodemon index.js
 ```
 
-3. Open your browser and navigate to `http://localhost:8000` to view the index.html page.
+3. Open your browser and navigate to `http://localhost:8000` to use the app.
