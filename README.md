@@ -11,7 +11,7 @@ posts disappear once the server is restarted.
 2. Post Viewing: The blog page allows the users to view all their posts.
 3. Post Update/Delete: Users are able edit and delete posts as needed.
 
-##Installation
+## Installation
 
 1. Clone the repository.
     ```bash
@@ -22,9 +22,7 @@ posts disappear once the server is restarted.
     ```bash
     npm install
     ```
-
-## Run
-
+    
 ## Usage
 
 1. Ensure you have Node.js or Nodemon installed.
