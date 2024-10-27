@@ -39,7 +39,7 @@ app.post("/", (req, res) => {
 app.post("/delete", (req, res) => {
     const { index } = req.body;
     posts.splice(index, 1);
-    res.redirect("/");
+    res.render("blog", { posts });
 });
 
 app.post("/edit/:index", (req, res) => {
