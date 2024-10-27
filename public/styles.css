@@ -160,7 +160,7 @@ input, textarea {
 }
 
 footer {
-    margin-left: calc(10% + 200px);
+    margin-left: calc(1vw + 28vw);
     padding-right: 10%;
     text-align: left;
     color: #FAFAFA;
