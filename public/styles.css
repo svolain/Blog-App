@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #505050;
+    color: #FAFAFA;
+}
+
+.html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: calc(1vw + 28vw);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: #0066CC;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10vw;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #0066CC;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 3vw;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #008CFF;
+}
+
+.home {
+    min-height: calc(100vh - 80px);
+    margin-left: calc(10% + 8vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 10%;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+
+.home h1 {
+    margin: 50px 0px 10px 15px;
+}
+
+.home h2, h3 {
+    font-weight: 600;
+}
+
+.home p {
+    font-weight: 500;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+label,
+input,
+textarea,
+button,
+.home a,
+.blog a
+ {
+    max-width: 400px;
+    width: 100%;
+    display: block;
+}
+
+#link {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #007AFF;
+    color: black;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+input, textarea {
+    margin: 10px 0px 10px 0px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.blog {
+    margin-top: 80px;
+    margin-left: calc(1vw + 28vw);
+    padding-right: 10%;
+}
+
+.title, .no-blog {
+    text-align: left;
+    margin: 0;
+}
+
+.blog h1 {
+    margin: 50px 0px 30px 0px;
+}
+
+.blog h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.blog a,
+.home a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.blog-card {
+    margin-bottom: 5px;
+    max-width: 400px;
+    width: 100%;
+    word-wrap: break-word;
+    background-color: #676666;
+}
+
+.btn-wrapper {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin-left: calc(10% + 200px);
+    padding-right: 10%;
+    text-align: left;
+    color: #FAFAFA;
+    padding: 20px 0;
+}

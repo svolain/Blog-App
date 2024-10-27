@@ -1,37 +1,38 @@
 <%- include("partials/header.ejs") %>
-
-<h1 class="title">Welcome to Blog app</h1>
-    <div class="form-container">
-      <p class="form-text">Edit your Blog</p>
-      <p class="form-text">Fill the form for creating your blog</p>
-      <form
-        action="/"
-        method="post"
-      >
-        <label for="bTitle">Blog Title</label>
-        <input
-          type="text"
-          id="b-title"
-          name="title"
-          placeholder="Your blog Title Here..."
-          required
-        />
-
-        <label for="content">Blog Content</label>
-        <textarea
-          type="text"
-          id="b-content"
-          name="content"
-          placeholder="Your Blog text here..."
-          rows="6"
-          required
+<div class="home">
+  <h1 class="title">Welcome to Blog app</h1>
+      <div class="form-container">
+        <p class="form-text">Fill the form to create a blog post</p>
+        <form
+          action="/"
+          method="post"
         >
-        </textarea>
-        <input
-          type="submit"
-          value="submit"
-        />
-      </form>
-    </div>
+          <label for="bTitle">Blog Title</label>
+          <input
+            type="text"
+            id="b-title"
+            name="title"
+            placeholder="Your blog Title Here..."
+            required
+          />
+
+          <label for="content">Blog Content</label>
+          <textarea
+            type="text"
+            id="b-content"
+            name="content"
+            placeholder="Your Blog text here..."
+            rows="6"
+            required
+          >
+          </textarea>
+          <input
+            class="btn"
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </div>
+  </div>
 
 <%- include("partials/footer.ejs") %>
