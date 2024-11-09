@@ -1,5 +1,5 @@
 # Blog App
-The Blog App is a simple web application that allows users to create, edit, view, and delete blog posts. Built with Node.js, Express.js, and EJS for templating. The main goal of this project was to learn and demonstrate ejs, express and middleware, hence there is no database currently and blog 
+The Blog App is a web application that allows users to create, edit, view, and delete blog posts. Built with Node.js, Express.js, and EJS for templating. The main goal of this project was to learn and demonstrate ejs, express and middleware, hence there is no database currently and blog 
 posts disappear once the server is restarted.
 
 ![Alt text](public/img/blog-home.png)
